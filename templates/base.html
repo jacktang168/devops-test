@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span2">
+			<ul class="nav nav-list">
+				<li class="nav-header">
+					指标系统
+				</li>
+				<li class="active">
+					<a href="#">国业系统</a>
+				</li>
+				<li>
+					<a href="#">短彩信系统</a>
+				</li>
+				<li>
+					<a href="#">应用</a>
+				</li>
+				<li class="nav-header">
+					查询区域
+				</li>
+				<li>
+					<a href="#">月视图</a>
+				</li>
+				<li>
+					<a href="#">季视图</a>
+				</li>
+                <li>
+					<a href="#">年视图</a>
+				</li>
+				<li class="divider">
+				</li>
+				<li>
+					<a href="#">帮助</a>
+				</li>
+			</ul>
+		</div>
+     <div class="span10">
+         {% block body %}
+         {% endblock %}
+     </div>
+	</div>
+</div>
+
+</body>
+</html>
+
+
+
+
